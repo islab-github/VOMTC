@@ -35,8 +35,8 @@ python3 trainWirelessDeviceDetector.py --head_only True --load_weights ./logs/co
 
 ## To Test the VOTRE-based object detector on the VOTRE validation set
 
-python3 validateWirelessDeviceDetector_Failedsampleincluded.py
+python3 validateWirelessDeviceDetector.py
 
 ## To Test the VOTRE-based object detector on the VOTRE test set
 
-python3 testWirelessDeviceDetector_Failedsampleincluded.py
+python3 testWirelessDeviceDetector.py
