@@ -9,8 +9,9 @@ Through experimentation using the VOMTC validation and test datasets, we demonst
 
 For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", submitted to IEEE Transactions on Cognitive Communications.
 
+
 ## Preparation
 
-Please download the VOMTC training set from https://www.dropbox.com/sh/qmq0hulzrprnc0z/AAAwcycHwQ9KA8NTPlcMLwFIa?dl=0 and follow the file structures of the VOMTC validation and test sets to organize the data (i.e., RGB, depth images in the 'image' folder and labels in the 'label' folder). 
+Please download the VOMTC training, validation, and test sets from https://www.dropbox.com/sh/qmq0hulzrprnc0z/AAAwcycHwQ9KA8NTPlcMLwFIa?dl=0 and organize the data accordingly (i.e., distance information and RGB/depth images in the 'image' folder and labels in the 'label' folder). 
 
 Download efficientdet-d8.pth from https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch and save it in ./EfficientDet/logs/coco.
