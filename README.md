@@ -17,3 +17,26 @@ For more details of this work, see the paper "VOMTC: Vision Objects for Millimet
 Please download the VOMTC training, validation, and test sets from https://www.dropbox.com/sh/qmq0hulzrprnc0z/AAAwcycHwQ9KA8NTPlcMLwFIa?dl=0 and organize the data accordingly (i.e., distance information and RGB/depth images in the 'image' folder and labels in the 'label' folder). 
 
 Download efficientdet-d8.pth from https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch and save it in ./EfficientDet/logs/coco.
+
+## VOTRE dataset selection code
+
+See VOMTCdatasetSelection.py.
+Note that this py file is a function file so that it needs to be imported 
+by another python file for its execution (in our case, TrainDataforWirelessDeviceDetector.py). 
+
+## Train Data Label Generation for training the VOTRE-based object detector
+
+Run TrainDataforWielessDeviceDetector.py to obtain input-output pairs for training the VOMTC-based object detector.
+After running the code, cropped images and labels will be available in the folder named 'cropped'. 
+
+## To Train the VOTRE-based object detector
+
+python3 trainWirelessDeviceDetector.py --head_only True --load_weights ./logs/coco/efficientdet-d8.pth
+
+## To Test the VOTRE-based object detector on the VOTRE validation set
+
+python3 validateWirelessDeviceDetector_Failedsampleincluded.py
+
+## To Test the VOTRE-based object detector on the VOTRE test set
+
+python3 testWirelessDeviceDetector_Failedsampleincluded.py
