@@ -24,7 +24,7 @@ See VOMTCdatasetSelection.py.
 Note that this py file is a function file so that it needs to be imported 
 by another python file for its execution (in our case, TrainDataforWirelessDeviceDetector.py). 
 
-## Train Data Label Generation for training the VOMTC-based object detector
+## Training Data Label Code for the VOMTC-based object detector
 
 Run TrainDataforWielessDeviceDetector.py to obtain input-output pairs for training the VOMTC-based object detector.
 After running the code, cropped images and labels will be available in the folder named 'cropped'. 
