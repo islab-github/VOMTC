@@ -1,5 +1,7 @@
 # VOMTC: Vision Objects for Millimeter and Terahertz Communications
 
+![](VOMTC_github.png)
+
 Recent advances in deep learning (DL) and computer vision (CV) have opened the door for the application of DL-based CV technologies in the realm of 6G wireless communications.
 Due to the substantial data requirements of DL-based CV, it is crucial to construct a qualified vision dataset tailored for wireless applications (e.g.,  RGB images containing wireless devices such as laptops and cell phones).
 In this paper, we propose a large-scale vision dataset referred to as Vision Objects for Millimeter and Terahertz and Environment (VOMTC) designed for CV-based wireless applications.
