@@ -9,7 +9,7 @@ The VOMTC dataset consists of 20,232 pairs of RGB and depth images obtained from
 To facilitate researchers in selecting the inputs and outputs that align with their wireless application, we design VOMTC with the following three key parameters: 1) active classes, 2) maximum number of people, and 3) maximum distance to the farthest object.
 Through experimentation using the VOMTC validation and test datasets, we demonstrate that the object detector model fine-tuned using VOMTC outperforms the baseline object detector in identifying cell phones.
 
-For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", submitted to IEEE Transactions on Cognitive Communications.
+For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", submitted to IEEE Transactions on Cognitive Communications http://isl.snu.ac.kr/publication.
 
 
 ## Preparation
