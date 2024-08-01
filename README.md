@@ -2,14 +2,17 @@
 
 ![](VOMTC_github.png)
 
-Recent advances in deep learning (DL) and computer vision (CV) have opened the door for the application of DL-based CV technologies in the realm of 6G wireless communications.
-Due to the substantial data requirements of DL-based CV, it is crucial to construct a qualified vision dataset tailored for wireless applications (e.g.,  RGB images containing wireless devices such as laptops and cell phones).
-In this work, we propose a large-scale vision dataset referred to as Vision Objects for Millimeter and Terahertz and Environment (VOMTC) designed for CV-based wireless applications.
-The VOMTC dataset consists of 20,232 pairs of RGB and depth images obtained from a camera attached to the base station (BS), with each pair labeled with three representative object categories (person, cell phone, and laptop) and bounding boxes of the objects.
-To facilitate researchers in selecting the inputs and outputs that align with their wireless application, we design VOMTC with the following three key parameters: 1) active classes, 2) maximum number of people, and 3) maximum distance to the farthest object.
-Through experimentation using the VOMTC validation and test datasets, we demonstrate that the object detector model fine-tuned using VOMTC outperforms the baseline object detector in identifying cell phones.
+Recent advances in sensing and computer vision (CV) technologies have opened the door for the application of
+deep learning (DL)-based CV technologies in the realm of 6G wireless communications. For the successful application of this
+emerging technology, it is crucial to have a qualified vision dataset tailored for wireless applications (e.g., RGB images
+containing wireless devices such as laptops and cell phones).  An aim of this paper is to propose a large-scale vision dataset
+referred to as Vision Objects for Millimeter and Terahertz Communications (VOMTC). The VOMTC dataset consists of
+20,232 pairs of RGB and depth images obtained from a camera attached to the base station (BS), with each pair labeled with
+three representative object categories (person, cell phone, and  laptop) and bounding boxes of the objects. Through experimental
+studies of the VOMTC datasets, we show that the beamforming technique exploiting the VOMTC-trained object detector outper
+forms conventional beamforming techniques.
 
-For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", submitted to IEEE Transactions on Cognitive Communications http://isl.snu.ac.kr/publication.
+For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", to appear in IEEE Transactions on Cognitive Communications http://isl.snu.ac.kr/publication.
 
 
 ## Preparation
