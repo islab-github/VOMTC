@@ -5,7 +5,7 @@
 Recent advances in sensing and computer vision (CV) technologies have opened the door for the application of
 deep learning (DL)-based CV technologies in the realm of 6G wireless communications. For the successful application of this
 emerging technology, it is crucial to have a qualified vision dataset tailored for wireless applications (e.g., RGB images
-containing wireless devices such as laptops and cell phones).  An aim of this paper is to propose a large-scale vision dataset
+containing wireless devices such as laptops and cell phones). An aim of this work is to propose a large-scale vision dataset
 referred to as Vision Objects for Millimeter and Terahertz Communications (VOMTC). The VOMTC dataset consists of
 20,232 pairs of RGB and depth images obtained from a camera attached to the base station (BS), with each pair labeled with
 three representative object categories (person, cell phone, and  laptop) and bounding boxes of the objects. Through experimental
