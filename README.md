@@ -12,7 +12,7 @@ three representative object categories (person, cell phone, and  laptop) and bou
 studies of the VOMTC datasets, we show that the beamforming technique exploiting the VOMTC-trained object detector outper
 forms conventional beamforming techniques.
 
-For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", to appear in IEEE Transactions on Cognitive Communications http://isl.snu.ac.kr/publication.
+For more details of this work, see the paper "VOMTC: Vision Objects for Millimeter and Terahertz Communications", to appear in IEEE Transactions on Cognitive Communications and Networking http://isl.snu.ac.kr/publication.
 
 
 ## Preparation
