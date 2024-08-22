@@ -17,7 +17,7 @@ For more details of this work, see the paper "VOMTC: Vision Objects for Millimet
 
 ## Preparation
 
-Please download the VOMTC training, validation, and test sets from https://www.dropbox.com/sh/qmq0hulzrprnc0z/AAAwcycHwQ9KA8NTPlcMLwFIa?dl=0 and organize the data accordingly (i.e., distance information and RGB/depth images in the 'image' folder and labels in the 'label' folder). 
+Please download the VOMTC training, validation, and test sets from https://drive.google.com/drive/folders/1pmFc7Y7_asoUdh5guweV0FStL_yn1kEq?usp=drive_link and organize the data accordingly (i.e., distance information and RGB/depth images in the 'image' folder and labels in the 'label' folder). 
 
 Also, please download the VOMTC-V2 set from https://drive.google.com/drive/folders/1QyyTzwwiZl1E4RK_Zsiy3TRYryfMWaEK?usp=sharing
 
